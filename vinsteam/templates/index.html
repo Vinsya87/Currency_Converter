@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block content %}
+{% load static %}
+
+
+<div class="container">
+  <h1>Конвертация валют в Доллар!</h1>
+  <form method="post" id="conversion-form">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Convert</button>
+</form>
+
+<div id="result">{{ result }}</div>
+
+
+</div>
+{% endblock %}
