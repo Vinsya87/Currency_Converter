@@ -10,12 +10,7 @@ https://apilayer.com/marketplace/exchangerates_data-api
 после нужно запустить докер sudo docker-compose up -d --build
 
 либо 
-python3 -m venv venv && . venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install -r requirements.txt
-
-cd vinsteam
-python3 manage.py runserver
+python3 -m venv venv && . venv/bin/activate && python -m pip install --upgrade pip && python -m pip install -r requirements.txt && cd vinsteam && python3 manage.py runserver
 
 
 что в том, что в другом случае проект будет доступен по адресу 
