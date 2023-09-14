@@ -1,5 +1,6 @@
 import requests
 
+
 def get_exchange_rate(api_key, from_currency, to_currency, amount):
     base_url = 'https://api.apilayer.com/exchangerates_data/convert'
     params = {
@@ -19,4 +20,3 @@ def get_exchange_rate(api_key, from_currency, to_currency, amount):
         return result
     else:
         return None
-
