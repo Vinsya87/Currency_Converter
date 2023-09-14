@@ -20,3 +20,6 @@ http://localhost:8000/
 http://localhost:8000/api/rates?to=RUB&from=USD&amount=10
 
 http://localhost:8000/swagger/ установлен но не описана документация
+
+Так  же на главную страницу вывел форму ввода кол-ва валюты, выбор валюты и конвертацию выбранной в доллар
+http://localhost:8000/
